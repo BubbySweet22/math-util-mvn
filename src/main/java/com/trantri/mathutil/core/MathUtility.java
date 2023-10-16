@@ -33,8 +33,8 @@ public class MathUtility {
     //4! = 1.2.3. 4
     //4! =     3!. 4 = 4 X 3!
     //3! = 3 X 2!
-    //2! = 2 X 1! = 1
-    //
+    //2! = 2 X 1! = 1 
+    //1! = 1
         public static long getFactorial(int n){
         
         if (n < 0 || n > 20) //for chỉ có 1 lệnh thì ko cần {}
