@@ -33,7 +33,7 @@ public class MathUtility {
         if (n == 0 || n == 1) //for chỉ có 1 lệnh thì ko cần {}
             return 1; //nếu n đặt biệt, ta return sớm luôn.
         
-        long result = 1; //sống sót đến lệnh này, sure n = 2..20
+        long result = 10; //sống sót đến lệnh này, sure n = 2..20
         
         for (int i = 2; i <= n; i++) //for chỉ có 1 lệnh thì ko cần {}
             result *= i;
